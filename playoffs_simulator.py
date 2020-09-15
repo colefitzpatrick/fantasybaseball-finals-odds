@@ -111,8 +111,8 @@ huskyplayoffs = round(playofftracker.count("Huskies") / runs * 100, 2)
 
 
 #Reporting Section
-print("Top 3 Fpts tiebreaker (NP, FW, HAL): " + str(round((top3tiebreak / runs * 100), 2)) + "%")
-print("Bottom 3 Fpts tiebreaker (LA, HAL, FW): " + str(round((bottomthreetie / runs * 100), 2)) + "%")
+print("Top 3 Fpts tiebreaker (Pilots, Fire, Huskies): " + str(round((top3tiebreak / runs * 100), 2)) + "%")
+print("Bottom 3 Fpts tiebreaker (Smog, Fire, Huskies): " + str(round((bottomthreetie / runs * 100), 2)) + "%")
 print("Smog playoff chances: " + str(smogplayoffs) + "%")
 print("Fire playoff chances: " + str(fireplayoffs) + "%")
 print("Husky playoff chances: " + str(huskyplayoffs) + "%")

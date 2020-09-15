@@ -4,6 +4,7 @@ import operator
 runs = 0
 num_runs = 1000000    #set the number of runs for the simulation
 
+#The 6 remaining matchups over the next 3 days
 game1a = ["Fire", "Smog"]
 game1b = ["Pilots", "Huskies"]
 game2a = ["Fire", "Huskies"]
